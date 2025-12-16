@@ -1,0 +1,16 @@
+name: internet_check_in_app_example
+description: Example app for internet_check_in_app package
+publish_to: "none"
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  internet_check_in_app:
+    path: ../
+
+flutter:
+  uses-material-design: true

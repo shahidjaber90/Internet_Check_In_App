@@ -1,7 +1,9 @@
 name: internet_check_in_app
-description: "A new Flutter package project."
+description: "A Flutter package for monitoring internet connectivity status with automatic UI updates. Provides a ready-to-use widget that listens to network changes and displays a no-internet screen when disconnected."
 version: 0.0.1
-homepage:
+homepage: https://github.com/shahidjaber90/Internet_Check_In_App
+repository: https://github.com/shahidjaber90/Internet_Check_In_App
+issue_tracker: https://github.com/shahidjaber90/Internet_Check_In_App/issues
 
 environment:
   sdk: ^3.9.2
@@ -10,6 +12,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_bloc: ^9.1.1
+  bloc: ^9.0.0
+  connectivity_plus: ^5.0.2
 
 dev_dependencies:
   flutter_test:
@@ -23,8 +28,8 @@ dev_dependencies:
 flutter:
 
   # To add assets to your package, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
+  assets:
+    - assets/
   #   - images/a_dot_ham.jpeg
   #
   # For details regarding assets in packages, see

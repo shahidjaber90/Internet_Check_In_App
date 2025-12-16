@@ -1,3 +1,4 @@
 ## 0.0.1
 
-* TODO: Describe initial release.
+* Initial release.
+* Features: Real-time internet connectivity monitoring, automatic UI updates, and configurable "No Internet" screen.
