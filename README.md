@@ -12,6 +12,13 @@ A comprehensive Flutter package for handling internet connectivity status in you
 *   **Customizable**: Use the default "No Internet" screen or provide your own custom widget.
 *   **Cross-Platform**: Supports Android, iOS, Windows, and Web.
 
+### UI Examples
+
+<div style="display: flex; gap: 20px;">
+  <img src="assets/package_image/Screenshot_1765917572.png" width="200" alt="Connected State" />
+  <img src="assets/package_image/Screenshot_1765917826.png" width="200" alt="No Internet State" />
+</div>
+
 ## Getting Started
 
 Add the package to your `pubspec.yaml` file:
