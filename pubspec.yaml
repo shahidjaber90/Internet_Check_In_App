@@ -1,6 +1,6 @@
 name: internet_check_in_app
 description: "A Flutter package for monitoring internet connectivity status with automatic UI updates. Provides a ready-to-use widget that listens to network changes and displays a no-internet screen when disconnected."
-version: 0.0.2
+version: 0.0.3
 homepage: https://github.com/shahidjaber90/Internet_Check_In_App
 repository: https://github.com/shahidjaber90/Internet_Check_In_App
 issue_tracker: https://github.com/shahidjaber90/Internet_Check_In_App/issues
@@ -12,9 +12,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_bloc: ^9.1.1
-  bloc: ^9.0.0
-  connectivity_plus: ^5.0.2
+  connectivity_plus: ^6.1.0
 
 dev_dependencies:
   flutter_test:

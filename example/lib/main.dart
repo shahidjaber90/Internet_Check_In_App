@@ -9,11 +9,15 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final GlobalKey<NavigatorState> navigatorKey = GlobalKey<NavigatorState>();
+
     return MaterialApp(
+      navigatorKey: navigatorKey,
       debugShowCheckedModeBanner: false,
-      home: ConnectivityListener(
-        child: InternetRestore(),
-      ),
+      builder: (_, child) {
+        return ConnectivityListener(navigatorKey: navigatorKey, child: child!);
+      },
+      home: const InternetRestore(),
     );
   }
 }

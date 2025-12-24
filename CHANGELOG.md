@@ -1,3 +1,11 @@
+## 0.0.3
+
+* **BREAKING CHANGE**: Removed BLoC dependency - package is now state management agnostic.
+* Works seamlessly with GetX, BLoC, Provider, Riverpod, or no state management.
+* Improved internet connectivity performance.
+* Fixed Navigator context issue when using `builder` property.
+* Updated documentation with comprehensive examples.
+
 ## 0.0.2
 
 * Added screenshots to README.
